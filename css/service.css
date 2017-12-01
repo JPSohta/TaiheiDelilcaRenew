@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+/*----------------------------------
+service general
+-----------------------------------*/
+.wrap{
+	overflow: hidden;
+	margin-bottom: 30px;
+	background: #f7f7f8;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.service h3{
+	border-left: 8px solid #247d63;
+	font-size: 24px;
+	line-height: 36px;
+	font-weigth: 500;
+	margin: 30px 0;
+	padding-left: 12px;
+}
+.service h4{
+	font-size: 16px;
+	line-height: 24px;
+	font-weigth: 500;
+	margin: 30px 0;
+	padding-left: 24px;
+	position: relative;
+}
+.service h4:before{
+	content:"";
+	width: 16px;
+	height: 16px;
+	display: block;
+	background: #247d63;
+	border-radius: 50%;
+	position: absolute;
+	top: 4px;
+	left: 0;
+	
+}
+/*------------------------------------------------
+consumer needs provider needs
+---------------------------------------------------*/
+ul.consumer_img{
+	width: 100%;
+	overflow: hidden;
+	margin: 30px 0;
+}
+ul.consumer_img>li{
+	width: 24%;
+	margin-right: 1%;
+	float: left;
+	margin-bottom: 1%;
+}
+ul.consumer_img>li:nth-child(4n){
+	margin-right: 0;
+}
+ul.consumer_img>li img{
+	max-width: 255px;
+}
+.provider_img p{
+	width: 100%;
+	margin: 60px 0;
+	background: #f7f7f8;
+}
+.provider_img p img{
+	max-width: 963px;	
+}
+
+/*----------------------------------------------
+network
+------------------------------------------------*/
+.network>.wrap01{
+	width: 100%;
+	overflow: hidden;
+}
+.network>.wrap01 .left{
+	width: 50%;
+	padding: 2.5%;
+	background: #f7f7f8;
+	box-sizing: border-box;		
+}
+.network>.wrap01 .right{
+	width: 45%;
+}
+.network>.wrap01 .right img{
+	max-width: 640px;
+}
+/* --------------------------------------------------
+sanitary
+-----------------------------------------------------*/
+.sanitary>.wrap02{
+	width: 100%;
+	overflow: hidden;
+}
+.sanitary>.wrap02 .right{
+	width: 50%;
+	padding: 2.5%;
+	background: #f7f7f8;
+	box-sizing: border-box;		
+}
+.sanitary>.wrap02 .left{
+	width: 45%;
+}
+.sanitary>.wrap02 .left img{
+	max-width: 640px;
+}
+/*----------------------------------------------
+sliderpro
+------------------------------------------------*/
+
+.sp-layer {
+	position: absolute;
+	margin: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-backface-visibility: hidden;
+}
+
+.sp-black {
+	color: #ffffff;
+	background: #247d63;
+}
+.sp-padding {
+	padding: 10px;
+}
+
+.slider-pro p.sp-layer {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.5;
+	margin: 0;
+	text-align: center;
+}
+/*----------------------------------------------
+recipe
+------------------------------------------------*/
+
+.recipe>.wrap03{
+	width: 100%;
+	overflow: hidden;
+}
+.recipe>.wrap03 .left{
+	width: 50%;
+	padding: 2.5%;
+	background: #f7f7f8;
+	box-sizing: border-box;		
+}
+.recipe>.wrap03 .right{
+	width: 45%;
+}
+.recipe>.wrap03 .right img{
+	max-width: 640px;
+}
+/*---------------------------------------------------
+origin
+-----------------------------------------------------*/
+.origin>.wrap04{
+	width: 100%;
+	overflow: hidden;
+}
+.origin>.wrap04 .right{
+	width: 50%;
+	padding: 2.5%;
+	background: #f7f7f8;
+	box-sizing: border-box;		
+}
+.origin>.wrap04 .left{
+	width: 45%;
+}
+.origin>.wrap04 .left img{
+	max-width: 640px;
+}
+/*----------------------------------------------
+workflow
+------------------------------------------------*/
+
+.image{
+	width: 37.5%;
+}
+.image img{
+	max-width: 360px;
+}
+.text{
+	width: 60%;
+}
+.workflow .wrap{
+	background: #f7f7f8;
+	box-sizing: border-box;
+}
+.workflow .wrap h3{
+	margin: 0;
+}
+.workflow .wrap .text{
+	padding: 1.5%;
+	box-sizing: border-box;
+}
+.subInfo{
+	overflow: hidden;
+	font-size: 15px;
+	line-height: 45px;
+	margin-bottom: 30px;
+}
+.subInfo>p.telephone{
+	text-align: center;
+}
+.subInfo>p.telephone>span{
+	font-size: 30px;
+}

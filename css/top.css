@@ -1,0 +1,334 @@
+@charset "utf-8";
+/* CSS Document */
+p.title{
+	text-align: center;
+	margin-bottom: 30px;
+		font-size: 12px;
+}
+/*-------------------------------------
+slider
+-----------------------------------------*/
+.slider {	
+	width: 100%;
+	max-width: 1500px;
+	max-height: 450px;
+	overflow: hidden;
+	padding-bottom: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+ul.bxslider>li {
+	/*background: url(../img/top/main_img01.jpg) no-repeat;*/
+	width: 100%;
+	max-width: 1500px;	
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	-moz-background-size: cover;
+}
+/* bxslider copy*/
+.slider_copy {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 12%;
+}
+.slider_copy>p.first {
+	width: 100%;
+	font-size: 60px;
+	margin: 4% 0 1%;
+	font-weight: 500;
+	color: #f7f7f8;
+	line-height: 2;
+	text-shadow: 3px 3px 10px  #777778;
+}
+.slider_copy>p.second {
+	font-size: 20px;
+	font-weight: 700;
+	color: #f7f7f8;
+	line-height: 1.6;
+	text-shadow: 2px 2px 6px  #777777;
+}
+
+/*------------------------------------------------
+g_line
+-------------------------------------------------*/
+.g_line {
+	margin: 30px 0;
+}
+
+ul.g_line_list{
+	overflow: hidden;
+}
+ul.g_line_list>li {
+	width: 48%;
+	margin-right: 4%;
+	float: left;
+	border: 3px solid #273179;
+	box-sizing: border-box;
+	text-align: center;
+	background: #f7f7f8;
+}
+ul.g_line_list>li:last-child{
+	margin-right: 0;
+}
+ul.g_line_list>li>dl {
+	width: 100%;
+	padding: 5% 0 3% 0;
+}
+ul.g_line_list>li>dl>dt{
+	width: 15%;
+	margin: 0 auto;
+}
+ul.g_line_list>li>dl>dt img{
+	width: 100%;
+	max-width: 100px;
+}
+ul.g_line_list>li>dl>dd h3{
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0 auto;
+	padding: 5% 0;
+	text-align: center;	
+}
+ul.g_line_list>li>dl>dd p {
+    width: 95%;
+	margin:0 auto;
+}
+/*--------------------------------------
+product
+-----------------------------------------*/
+.product {
+	margin: 30px 0;	
+}
+
+/*-----------------------------------------------
+product_category
+-------------------------------------------------*/
+.product_category{
+	margin-bottom: 60px;
+}
+.product_category ul {
+	margin: 30px 0;
+	overflow: hidden;
+}
+.product_category ul>li {
+	width: 32%;
+	float: left;
+	margin-right: 2%;
+}
+.product_category ul>li:nth-child(3n) {
+	margin-right: 0;
+}
+.product_category ul>li dl {
+	margin-bottom: 30px;
+}
+.product_category ul>li dt img {
+	width: 100%;
+	max-width: 640px;
+}
+.product_category ul>li dd {
+	background: #f7f7f7;
+	padding: 10px;
+}
+.product_category ul>li dd h3.category01 {
+	color: #273179;
+	font-size: 15px;
+	font-weight :700;
+}
+.product_category ul>li dd h3.category02{
+	color: #ef9300;
+	font-size: 15px;
+	font-weight :700;
+	}
+.product_category ul>li dd h3.category03{
+	color: #c31a22;
+	font-size: 15px;
+	font-weight :700;
+}
+.product_category ul>li dd h3.category04{
+	color: #ab8049;
+	font-size: 15px;
+	font-weight :700;
+}
+.product_category h3.category01{
+	color: #273179;
+	font-weight: 700;
+}
+.product_category p{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.product_category p:hover{
+	opacity: 0.7;
+}
+
+/*-------------------------------------------------------
+movie safety 
+----------------------------------------------------------*/
+.movie_safety{
+    width: 100%;
+}
+.movie_safety .box{
+	width: 50%;
+	float: left;
+	padding: 75px 0;
+	box-sizing: border-box;
+	text-align: center;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+.movie_safety p{
+	margin-bottom: 30px;
+}
+.movie{
+	background: url(../img/top/movie_bg.png) no-repeat;
+}
+.safety {
+	background: url(../img/top/safety_bg.png) no-repeat;
+}
+
+
+/*-------------------------------------------------------
+news 
+----------------------------------------------------------*/
+.news ul {
+	margin: 0 0 45px 0;
+}
+.news ul li {
+	border-bottom: 1px dotted #273179;
+	padding: 15px 0;
+	overflow: hidden;
+}
+
+.news ul li dt{
+	float: left;
+	line-height: 30px;
+}
+.container.news ul li dd {
+	overflow: hidden;
+    padding-left: 45px;
+	line-height: 30px;
+}
+.container.news ul li dd p{
+	float: left;
+}
+
+.container.news ul li dd p.label{
+	background: #273179;
+	color: #ffffff;
+	padding: 0 8px;
+	margin-right: 15px;
+}
+
+@media screen and (max-width: 960px) {
+.slider_copy>p.first {
+	font-size: 48px;
+	margin: 4% 0 1%;
+	line-height: 1.2;
+	}
+.slider_copy>p.second {
+	font-size: 16px;
+	line-height: 1.6;
+}
+}
+
+@media screen and (max-width: 640px) {
+h2 {
+	text-align: center;
+	color: #009011;
+	font-size: 24px;
+	font-weight: 700;
+	background: rgba(0,112,33,0.15);
+	padding: 10px;
+}
+.slider_copy>p.first {
+	font-size: 36px;
+	margin: 5% 0 0%;
+	line-height: 1.2;
+	}
+.slider_copy>p.second {
+	font-size: 16px;
+	line-height: 1.2;
+}
+/*------------------------------------------------
+g_line
+-------------------------------------------------*/
+.g_line {
+	margin: 0;
+}
+ul.g_line_list{
+	overflow: inherit;
+	width: 100%;
+	margin: 0 auto;
+}
+ul.g_line_list>li {
+	width: 100%;
+	margin-right: 0%;
+	float: none;
+	margin-bottom: 20px;
+}
+ul.g_line_list>li:last-child{
+	margin-right: 0;
+}
+ul.g_line_list>li>dl>dt{
+	width: 10%;
+	margin: 0 auto;
+}
+ul.g_line_list>li>dl>dt img{
+	width: 100%;
+	max-width: 100px;
+}
+ul.g_line_list>li>dl>dd p {
+    width: 96%;
+	margin:0 auto;
+	text-align: left;
+}
+/*-----------------------------------------------
+product_category
+-------------------------------------------------*/
+.product_category ul>li {
+	width: 100%;
+	margin-right: 0;
+}
+.product_category ul>li:nth-child(3n) {
+	margin-right: 0%;
+}
+.product_category ul>li:nth-child(2n) {
+	margin-right: 0%;
+}
+/*-----------------------------------------
+news
+-----------------------------------------*/
+.news ul li dt{
+	line-height: 1.5;
+}
+.container.news ul li dd {
+    padding-left: 15px;
+	
+}
+.container.news ul li dd p{
+	line-height: 1.2;
+}
+
+.container.news ul li dd p.label{
+	line-height: 1.5;
+}
+}
+@media screen and (max-width: 480px) {
+.slider_copy>p.first {
+	font-size: 24px;
+	margin: 5% 0 0%;
+	line-height: 1.2;
+		font-weight: 500;
+	}
+.slider_copy>p.second {
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: 300;
+}
+}

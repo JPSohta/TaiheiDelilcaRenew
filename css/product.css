@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+.product h3 {
+    font-size: 21px;
+    margin: 15px 0;
+    line-height: 1.5;
+}
+.subInfo {
+    overflow: hidden;
+    font-size: 15px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+.subInfo>p.telephone {
+    text-align: center;
+}
+.subInfo>p.telephone>span {
+    font-size: 30px;
+}
+ul.tab {
+    width: 100%;
+    overflow: hidden;
+    margin: 45px 0 60px;
+}
+ul.tab>li {
+    width: 24%;
+    margin-right: 1.33%;
+    height: 45px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    float: left;
+    background: #247d63;
+}
+ul.tab>li:hover {
+    background: #57af96;
+}
+ul.tab>li>a {
+    display: block;
+    line-height: 45px;
+    text-align: center;
+    color: #ffffff;
+}
+ul.tab>li:last-child {
+    margin-right: 0;
+}
+/* filtering */
+.controls {
+    padding: 1%;
+    background: #eeeeee;
+}
+button {
+    display: inline-block;
+    margin: 5px;
+    height: 40px;
+    background: #247d63;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 4px;
+}
+button a {
+    line-height: 40px;
+    display: block;
+    color: #ffffff;
+}
+button:hover {
+    background: #57af96;
+}
+button.return {
+    background: #273179;
+}
+button.return:hover {
+    background: #5a64ac;
+}
+.mix, .gap {
+    display: inline-block;
+    width: 49%;
+}
+.mix {
+    margin-bottom: 1%;
+    display: none;  /* sort後に消える　*/
+    position: relative;
+}
+.mix:after {
+    content: attr(name);
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    left: 18%;
+}
+.mix img {
+    max-width: 100%;
+}
+
+@media all and (max-width: 960px) {
+ul.tab>li {
+    width: 49%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+ul.tab>li:last-child {
+    margin-right: 2%;
+}
+ul.tab>li:nth-child(2n) {
+    margin-right: 0;
+}
+}
+
+@media all and (max-width: 640px) {
+.container .mix, .container .gap {
+    width: 100%;
+}
+}
+
+@media all and (max-width: 420px) {
+.container .mix, .container .gap {
+    width: 100%;
+}
+	ul.tab>li {
+    width: 100%;
+    margin-right: 0%;
+    margin-bottom: 1%;
+}
+ul.tab>li:last-child {
+    margin-right: 0%;
+}
+
+}
