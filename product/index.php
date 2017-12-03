@@ -49,8 +49,6 @@
 				</li>
 				<li><a href="<?php echo $webroot; ?>product/fruit.php">フレッシュカットフルーツ</a>
 				</li>
-				<li><a href="<?php echo $webroot; ?>product/salad.php">インストアサラダキット</a>
-				</li>
 				<li><a href="<?php echo $webroot; ?>product/souzai.php">惣菜キット</a>
 				</li>
 			</ul>

@@ -291,7 +291,7 @@
 .sp-black {
 	color: #ffffff;
 	background: rgb(0, 0, 0);
-	background: #009910;/* 適用中！ */
+	background: rgba(39,49,121,0.8);/* 適用中！ */
 }
 
 .sp-white {

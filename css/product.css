@@ -24,16 +24,16 @@ ul.tab {
     margin: 45px 0 60px;
 }
 ul.tab>li {
-    width: 24%;
-    margin-right: 1.33%;
+    width: 32%;
+    margin-right: 2%;
     height: 45px;
     border-radius: 4px;
     box-sizing: border-box;
     float: left;
-    background: #009910;
+    background: #273179;
 }
 ul.tab>li:hover {
-    background: #54cc14;
+    background: #7ca9ce;
 }
 ul.tab>li>a {
     display: block;
@@ -66,13 +66,13 @@ button a {
     color: #ffffff;
 }
 button:hover {
-    background: #54cc14;
+    background: #33cc43;
 }
 button.return {
     background: #273179;
 }
 button.return:hover {
-    background: #5a64ac;
+    background: #7ca9ce;
 }
 .mix, .gap {
     display: inline-block;
@@ -98,29 +98,23 @@ button.return:hover {
 
 @media all and (max-width: 960px) {
 ul.tab>li {
-    width: 49%;
+    width: 32%;
     margin-right: 2%;
     margin-bottom: 2%;
 }
 ul.tab>li:last-child {
-    margin-right: 2%;
-}
-ul.tab>li:nth-child(2n) {
     margin-right: 0;
 }
+/*ul.tab>li:nth-child(2n) {
+    margin-right: 0;
+}*/
 }
 
 @media all and (max-width: 640px) {
 .container .mix, .container .gap {
     width: 100%;
 }
-}
-
-@media all and (max-width: 420px) {
-.container .mix, .container .gap {
-    width: 100%;
-}
-	ul.tab>li {
+ul.tab>li {
     width: 100%;
     margin-right: 0%;
     margin-bottom: 1%;
@@ -129,4 +123,11 @@ ul.tab>li:last-child {
     margin-right: 0%;
 }
 
+
+}
+
+@media all and (max-width: 420px) {
+.container .mix, .container .gap {
+    width: 100%;
+}
 }
