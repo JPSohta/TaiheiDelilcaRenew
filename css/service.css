@@ -15,7 +15,7 @@ service general
 	float: right;
 }
 .service h3{
-	border-left: 8px solid #247d63;
+	border-left: 8px solid #009910;
 	font-size: 24px;
 	line-height: 36px;
 	font-weigth: 500;
@@ -35,7 +35,7 @@ service general
 	width: 16px;
 	height: 16px;
 	display: block;
-	background: #247d63;
+	background: #009910;
 	border-radius: 50%;
 	position: absolute;
 	top: 4px;
@@ -125,7 +125,7 @@ sliderpro
 
 .sp-black {
 	color: #ffffff;
-	background: #247d63;
+	background: #009910;
 }
 .sp-padding {
 	padding: 10px;

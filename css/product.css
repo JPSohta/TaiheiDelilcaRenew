@@ -30,10 +30,10 @@ ul.tab>li {
     border-radius: 4px;
     box-sizing: border-box;
     float: left;
-    background: #247d63;
+    background: #009910;
 }
 ul.tab>li:hover {
-    background: #57af96;
+    background: #54cc14;
 }
 ul.tab>li>a {
     display: block;
@@ -53,7 +53,7 @@ button {
     display: inline-block;
     margin: 5px;
     height: 40px;
-    background: #247d63;
+    background: #009910;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
@@ -66,7 +66,7 @@ button a {
     color: #ffffff;
 }
 button:hover {
-    background: #57af96;
+    background: #54cc14;
 }
 button.return {
     background: #273179;
