@@ -171,7 +171,7 @@ product_category
 					<dl><a href="<?php echo $webroot; ?>product/vegitable.php">
 						<dt><img src="<?php echo $webroot; ?>img/top/product_img01.jpg"></dt>
 						<dd>
-							<h3 class="category01">業務用 フレッシュカット野菜</h3>
+							<h3 class="category01">フレッシュカット野菜＜業務用＞</h3>
 							<p class="matchheight">。取れたてを即、その日に加工。安定した価格と新鮮さが自慢です。野菜を産地で大量に一括購入。取れたてを即、その日に加工。安定した価格と新鮮さが自慢です。野菜を産地で大量に一括購入。取れたてを即、その日に加工。安定した価格と新鮮さが自慢です。</p>
 						</dd>
 					</a>			
@@ -181,7 +181,7 @@ product_category
 					<dl><a href="<?php echo $webroot; ?>product/fruit.php">
 						<dt><img src="<?php echo $webroot; ?>img/top/product_img02.jpg"></dt>
 						<dd>
-							<h3 class="category01">業務用 カットフルーツ</h3>
+							<h3 class="category01">カットフルーツ＜業務用＞</h3>
 							<p class="matchheight">売上急上昇のトレンディーなアイテム!苺やキウイをはじめ四季折々のバリエーションで売り場を演出。</p>
 						</dd>
 					</a>
@@ -189,9 +189,9 @@ product_category
 				</li>
 				<li>
 					<dl><a href="<?php echo $webroot; ?>product/salad.php">
-						<dt><img src="http://via.placeholder.com/640x450"></dt>
+						<dt><img src="<?php echo $webroot; ?>img/top/product_img03.jpg"></dt>
 						<dd>
-							<h3 class="category01">業務用 惣菜キット</h3>
+							<h3 class="category01">惣菜用キット＜業務用＞</h3>
 							<p class="matchheight">手作りサラダが店内でいつも簡単に作ることができ60アイテム以上のラインアップで差別化のお手伝いをいたします。</p>
 						</dd>
 					</a>
@@ -201,7 +201,7 @@ product_category
 					<dl><a href="<?php echo $webroot; ?>product/vegitable.php">
 						<dt><img src="<?php echo $webroot; ?>img/top/product_img04.jpg"></dt>
 						<dd>
-							<h3 class="category01">フレッシュカット野菜コンシューマー向け</h3>
+							<h3 class="category01">フレッシュカット野菜＜コンシューマー用＞</h3>
 							<p class="matchheight">具材を調理加熱するだけの簡単クッキング食材セットです。</p>
 						</dd>
 					</a>
@@ -211,7 +211,7 @@ product_category
 					<dl><a href="<?php echo $webroot; ?>product/fruit.php">
 						<dt><img src="<?php echo $webroot; ?>img/top/product_img05.jpg"></dt>
 						<dd>
-							<h3 class="category01">カットフルーツコンシューマー向け</h3>
+							<h3 class="category01">カットフルーツ＜コンシューマー用＞</h3>
 							<p class="matchheight">具材を調理加熱するだけの簡単クッキング食材セットです具材を調理加熱するだけの簡単クッキング食材セットです。具材を調理加熱するだけの簡単クッキング食材セットです。
 								<p>
 						</dd>
@@ -220,9 +220,9 @@ product_category
 				</li>
 				<li>
 					<dl><a href="#">
-						<dt><img src="http://via.placeholder.com/640x450"></dt>
+						<dt><img src="<?php echo $webroot; ?>img/top/product_img06.jpg"></dt>
 						<dd>
-							<h3 class="category01">コンシューマー向け 惣菜キット</h3>
+							<h3 class="category01">惣菜用キット＜コンシューマー用＞</h3>
 							<p class="matchheight">具材を調理加熱するだけの簡単クッキング食材セットです具材を調理加熱するだけの簡単クッキング食材セットです。具材を調理加熱するだけの簡単クッキング食材セットです。
 								<p>
 						</dd>

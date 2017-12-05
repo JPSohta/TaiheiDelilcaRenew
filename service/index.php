@@ -180,22 +180,22 @@
 							</div>
 							<div class="sp-slide"> <img class="sp-image" src="<?php echo $webroot; ?>img/service/step3_img.jpg"/>
 								<p class="sp-layer sp-black sp-padding" data-position="bottomLeft" data-width="100%" data-show-transition="up" data-hide-transition="down">
-									STEP3: 電解単配で殺菌処理をします。
+									STEP3: 電解炭酸次亜でで殺菌処理をします。
 								</p>
 							</div>
 							<div class="sp-slide"> <img class="sp-image" src="<?php echo $webroot; ?>img/service/step4_img.jpg"/>
 								<p class="sp-layer sp-black sp-padding" data-position="bottomLeft" data-width="100%" data-show-transition="up" data-hide-transition="down">
-									STEP4: さまざまなスライサーで、多様なカット企画に対応いたします。<br><span class="small">（写真はキャベツの千切りです）</span>
+									STEP4: スライサーを使い多様なカット規格に対応いたします。<br><span class="small">（写真はキャベツの千切りです）</span>
 								</p>
 							</div>
 							<div class="sp-slide"> <img class="sp-image" src="<?php echo $webroot; ?>img/service/step5_img.jpg"/>
 								<p class="sp-layer sp-black sp-padding" data-position="bottomLeft" data-width="100%" data-show-transition="up" data-hide-transition="down">
-									STEP5: モラ水（冷水）で洗います。
+									STEP5: チラー水（冷水）で洗います。
 								</p>
 							</div>
 							<div class="sp-slide"> <img class="sp-image" src="<?php echo $webroot; ?>img/service/step6_img.jpg"/>
 								<p class="sp-layer sp-black sp-padding" data-position="bottomLeft" data-width="100%" data-show-transition="up" data-hide-transition="down">
-									STEP6: 不要な水分を取り除きます。
+									STEP6: 脱水します。
 								</p>
 							</div>
 						</div>
@@ -223,7 +223,7 @@
 				<!-- recipe -->
 
 				<div class="origin">
-					<h3>野菜は産地より直送</h3>
+					<h3>新鮮な野菜を調達</h3>
 					<div class="wrap04 wrap">
 						<div class="left"><p> <img src="<?php echo $webroot; ?>img/service/service_img04.jpg"/> </p></div><!-- left -->
 						<div class="right"><p>野菜は産地より直送の説明文がはいります。野菜は産地より直送の説明文がはいります。野菜は産地より直送の説明文がはいります。野菜は産地より直送の説明文がはいります。野菜は産地より直送の説明文がはいります。野菜は産地より直送の説明文がはいります。野菜は産地より直送の説明文がはいります。野菜は産地より直送の説明文がはいります。	<br/> 野菜は産地より直送の説明文がはいります。野菜は産地より直送の説明文がはいります。野菜は産地より直送の説明文がはいります。野菜は産地より直送の説明文がはいります。
