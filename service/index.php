@@ -175,8 +175,7 @@
 							</div>
 							<div class="sp-slide"> <img class="sp-image" src="<?php echo $webroot; ?>img/service/step2_img.jpg"/>
 								<p class="sp-layer sp-black sp-padding" data-position="bottomLeft" data-width="100%" data-show-transition="up" data-hide-transition="down">
-									STEP2: カットの規格に合わせて事前処理をします。<br><span class="small">（写真はキャベツの芯を抜いているところです）</span>
-								</p>
+									STEP2: カットの規格に合わせて事前処理をします。	</p>
 							</div>
 							<div class="sp-slide"> <img class="sp-image" src="<?php echo $webroot; ?>img/service/step3_img.jpg"/>
 								<p class="sp-layer sp-black sp-padding" data-position="bottomLeft" data-width="100%" data-show-transition="up" data-hide-transition="down">
@@ -185,8 +184,7 @@
 							</div>
 							<div class="sp-slide"> <img class="sp-image" src="<?php echo $webroot; ?>img/service/step4_img.jpg"/>
 								<p class="sp-layer sp-black sp-padding" data-position="bottomLeft" data-width="100%" data-show-transition="up" data-hide-transition="down">
-									STEP4: スライサーを使い多様なカット規格に対応いたします。<br><span class="small">（写真はキャベツの千切りです）</span>
-								</p>
+									STEP4: スライサーを使い多様なカット規格に対応いたします。</p>
 							</div>
 							<div class="sp-slide"> <img class="sp-image" src="<?php echo $webroot; ?>img/service/step5_img.jpg"/>
 								<p class="sp-layer sp-black sp-padding" data-position="bottomLeft" data-width="100%" data-show-transition="up" data-hide-transition="down">

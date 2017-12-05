@@ -190,7 +190,7 @@
 	content: '';
 	position: absolute;
 	height: 100%;
-	border-left: 5px solid #e20613;
+	border-left: 5px solid #273179;
 	right: 0;
 	top: 0;
 	margin-right: 13px;
@@ -204,7 +204,7 @@
 	right: 0;
 	top: 50%;
 	margin-top: -8px;
-	border-left: 13px solid #e20613;
+	border-left: 13px solid #273179;
 	border-top: 8px solid transparent;
 	border-bottom: 8px solid transparent;
 }

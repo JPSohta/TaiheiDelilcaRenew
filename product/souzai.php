@@ -52,11 +52,33 @@
 				<!-- controls -->
 
 				<div class="targets">
-					<div class="mix category_souzai category_japanese" data-myorder="400" name="肉じゃがキット"><img src="<?php echo $webroot; ?>img/product/souzai/japanese_01.jpg" alt="肉じゃが">
+					<div class="mix category_souzai" data-myorder="400" name="肉じゃがキット"><img src="<?php echo $webroot; ?>img/product/souzai/souzai_01.jpg" alt="">
 					</div>
-					<div class="mix category_souzai category_chinese" data-myorder="401" name="酢豚キット"><img src="<?php echo $webroot; ?>img/product/souzai/chinese_01.jpg" alt="酢豚">
+					<div class="mix category_souzai" data-myorder="401" name="酢豚キット"><img src="<?php echo $webroot; ?>img/product/souzai/souzai_02.jpg" alt="">
 					</div>
-					<div class="mix category_souzai category_tenpura" data-myorder="402" name="野菜天ぷらキット"><img src="<?php echo $webroot; ?>img/product/souzai/tenpura_01.jpg" alt="野菜天ぷら">
+					<div class="mix category_souzai" data-myorder="402" name="野菜天ぷらキット"><img src="<?php echo $webroot; ?>img/product/souzai/souzai_03.jpg" alt="">
+					</div>
+					<div class="mix category_souzai" data-myorder="403" name="野菜天ぷらキット"><img src="<?php echo $webroot; ?>img/product/souzai/souzai_04.jpg" alt="">
+					</div>
+					<div class="mix category_souzai" data-myorder="404" name="野菜天ぷらキット"><img src="<?php echo $webroot; ?>img/product/souzai/souzai_05.jpg" alt="">
+					</div>
+					<div class="mix category_souzai" data-myorder="405" name="野菜天ぷらキット"><img src="<?php echo $webroot; ?>img/product/souzai/souzai_06.jpg" alt="">
+					</div>
+					<div class="mix category_souzai" data-myorder="406" name="野菜天ぷらキット"><img src="<?php echo $webroot; ?>img/product/souzai/souzai_07.jpg" alt="">
+					</div>
+					<div class="mix category_souzai" data-myorder="407" name="野菜天ぷらキット"><img src="<?php echo $webroot; ?>img/product/souzai/souzai_08.jpg" alt="">
+					</div>
+					<div class="mix category_souzai" data-myorder="408" name="野菜天ぷらキット"><img src="<?php echo $webroot; ?>img/product/souzai/souzai_09.jpg" alt="">
+					</div>
+					<div class="mix category_souzai" data-myorder="409" name="野菜天ぷらキット"><img src="<?php echo $webroot; ?>img/product/souzai/souzai_10jpg" alt="">
+					</div>
+					<div class="mix category_souzai" data-myorder="410" name="野菜天ぷらキット"><img src="<?php echo $webroot; ?>img/product/souzai/souzai_11jpg" alt="">
+					</div>
+					<div class="mix category_souzai" data-myorder="411" name="野菜天ぷらキット"><img src="<?php echo $webroot; ?>img/product/souzai/souzai_12jpg" alt="">
+					</div>
+					<div class="mix category_souzai" data-myorder="412" name="野菜天ぷらキット"><img src="<?php echo $webroot; ?>img/product/souzai/souzai_13jpg" alt="">
+					</div>
+					<div class="mix category_souzai" data-myorder="413" name="野菜天ぷらキット"><img src="<?php echo $webroot; ?>img/product/souzai/souzai_14jpg" alt="">
 					</div>
 					<div class="gap"></div>
 					<div class="gap"></div>
