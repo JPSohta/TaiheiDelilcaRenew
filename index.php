@@ -188,7 +188,7 @@ product_category
 					</dl>
 				</li>
 				<li>
-					<dl><a href="<?php echo $webroot; ?>product/salad.php">
+					<dl><a href="<?php echo $webroot; ?>product/souzai.php">
 						<dt><img src="<?php echo $webroot; ?>img/top/product_img03.jpg"></dt>
 						<dd>
 							<h3 class="category01">惣菜用キット＜業務用＞</h3>
@@ -219,7 +219,7 @@ product_category
 					</dl>
 				</li>
 				<li>
-					<dl><a href="#">
+					<dl><a href="<?php echo $webroot; ?>product/souzai.php">
 						<dt><img src="<?php echo $webroot; ?>img/top/product_img06.jpg"></dt>
 						<dd>
 							<h3 class="category01">惣菜用キット＜コンシューマー用＞</h3>

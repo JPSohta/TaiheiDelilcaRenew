@@ -128,8 +128,9 @@ product_category
 	max-width: 640px;
 }
 .product_category ul>li dd {
+	width: 96%;
 	background: rgba(39,49,121,0.03);
-	padding: 10px 0;
+	padding: 10px 2%;
 }
 .product_category ul>li dd h3 {
 	color: #273179;
